@@ -1,0 +1,100 @@
+.RH_form_food_select{
+    position: relative;
+    top:1.3rem;
+}
+.RH_form_food_select select{
+    width: 20rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:  1px solid #282828;
+    color: #282828;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.RH_form_food_select label{
+    color: #282828;
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: absolute;
+    left: 0rem;
+    top: -0.8rem;
+    padding: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.RH_form_food_select label::after{
+    content: '*';
+    color:  #E76A6A;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.RH_form_food_select label.focused {
+    transform: translateY(-20px);
+    padding: 2px 10px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:#282828;
+}
+
+.RH_form_food_description{
+    position: relative;
+}
+.RH_form_food_description input{
+    width: 62.2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:  1px solid #282828;
+    padding: 10px; 
+}
+.RH_form_food_description  label{
+    color: #282828;
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    padding: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+
+}
+.RH_form_food_description label::after{
+    content: '*';
+    color:  #E76A6A;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+.RH_form_food_description label.focused {
+    transform: translateY(-20px);
+    padding: 2px 10px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:#282828;
+}
+
+.RH_form_lastSection .RH-space-between label {
+    border: 2px solid #004E6B;
+    color: #004E6B; 
+    border-radius: .3rem;
+    padding: .2rem;
+}
+
+.RH_form_lastSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.RH_form_lastSection .RH-space-between {
+    display: flex;
+    align-items: center;
+}
+.RH_form_lastSection .RH-space-between .hidden {
+    border: .1rem solid gray;
+    color: gray; 
+}
+
+
+
