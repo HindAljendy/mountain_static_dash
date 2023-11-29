@@ -1,0 +1,124 @@
+.rh-inbox {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: rgba(40, 40, 40, 0.6980392157);
+  }
+  .rh-inbox .text-bold {
+    color: #282828;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .rh-inbox p {
+    margin: 0;
+  }
+  .rh-inbox .border-b {
+    border-bottom: 0.1rem solid rgba(0, 78, 107, 0.2);
+  }
+  .rh-inbox .toolbar {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(40, 40, 40, 0.6980392157);
+    padding: 1rem 1.5rem;
+    width: 20.2rem;
+  }
+  .rh-inbox ::-webkit-scrollbar-thumb {
+    background-color: #004E6B;
+    width: 0.5rem;
+  }
+  .rh-inbox ::-webkit-scrollbar {
+    width: 0.2rem;
+  }
+  .rh-inbox ::-webkit-scrollbar-track {
+    background-color: rgba(0, 78, 107, 0.2);
+  }
+  .rh-inbox > .d-flex > div:first-of-type {
+    width: 20.2rem;
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 1rem;
+  }
+  .rh-inbox .list {
+    background-color: #FFFDFD;
+    border-radius: 1rem;
+    color: rgba(40, 40, 40, 0.6980392157);
+    min-height: 100vh;
+    padding: 1rem 0rem;
+  }
+  .rh-inbox .list .rh-item {
+    padding: 0.5rem;
+    border-bottom: 0.1rem solid rgba(0, 78, 107, 0.2);
+  }
+  .rh-inbox .list .rh-item > div {
+    width: 90%;
+  }
+  .rh-inbox .list .rh-item .d-flex {
+    align-items: center;
+  }
+  .rh-inbox .list .rh-item .date {
+    float: right;
+  }
+  .rh-inbox .list .rh-item .seen {
+    color: #004E6B;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0.2rem;
+    background-color: #004E6B;
+  }
+  .rh-inbox .list .rh-item .f-right {
+    float: right;
+  }
+  .rh-inbox .list .active {
+    border-left: 0.3rem solid #004E6B;
+  }
+  .rh-inbox .content {
+    background-color: #FFFDFD;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    width: 42vw;
+  }
+  .rh-inbox .content .lineheight {
+    line-height: 20px;
+  }
+  .rh-inbox .content > img {
+    width: 70px;
+  }
+  .rh-inbox .content .btn {
+    background-color: #004E6B;
+    padding: 4px 20px;
+    border-radius: 6px;
+  }
+.rh-inbox .beforeAndAfter {
+    margin: 1rem auto;
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+  }
+.rh-inbox .beforeAndAfter:before {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(0, 78, 107, 0.2);
+    left: 5%;
+    top: 50%;
+    position: absolute;
+  }
+  .rh-inbox .beforeAndAfter:after {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: rgba(0, 78, 107, 0.2);
+    right: 5%;
+    top: 50%;
+    position: absolute;
+  }
+  .rh-inbox .color-blue {
+    color: #004E6B;
+  }
+  .rh-inbox .container {
+    max-width: 37rem;
+  }
